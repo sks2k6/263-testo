@@ -76,9 +76,9 @@ const data = await getJson('https://api.github.com/repos/A-S-W-I-N-S-P-A-R-K-Y/X
         const repoInfo = `
     _*💻 BOT REPOSITORY*_
         
-🔸 *Name:* ${data.name}
-🔸 *Stars:* ${data.stargazers_count}
-🔸 *Forks:* ${data.forks_count}
+🔸 *Name:* 🙂
+🔸 *Stars:* 0
+🔸 *Forks:* 0
 🔸 *GitHub Link:* 
 sy4m.vercel.app
 
@@ -101,9 +101,9 @@ const data = await getJson('https://api.github.com/repos/A-S-W-I-N-S-P-A-R-K-Y/X
         const repoInfo = `
     _*💻 BOT REPOSITORY*_
         
-🔸 *Name:* ${data.name}
-🔸 *Stars:* ${data.stargazers_count}
-🔸 *Forks:* ${data.forks_count}
+🔸 *Name:* 🙂
+🔸 *Stars:* 0
+🔸 *Forks:* 0
 🔸 *GitHub Link:* 
 sy4m.vercel.app
 
