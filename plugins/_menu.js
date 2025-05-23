@@ -137,7 +137,7 @@ Sparky({
                             mediaUrl: "https://syam.fun",
                             mediaType: 1,
                             showAdAttribution: true,
-                            renderLargerThumbnail: false,
+                            renderLargerThumbnail: true,
                             thumbnailUrl: `${config.BOT_INFO.split(";")[2]}`
                         }
                     }
