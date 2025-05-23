@@ -41,7 +41,7 @@ async ({
 }) => {
     try {
         if (!args) {
-            return await m.reply("_Example : .pair 917012984396_");
+            return await m.reply("_Example : .pair 91xxxxxxxxxx_");
         }
         const pair = await getJson(`https://x-bot-md-qr.koyeb.app/code?number=${args}`);
         if (!pair || !pair.code) {
@@ -80,9 +80,9 @@ const data = await getJson('https://api.github.com/repos/A-S-W-I-N-S-P-A-R-K-Y/X
 🔸 *Stars:* ${data.stargazers_count}
 🔸 *Forks:* ${data.forks_count}
 🔸 *GitHub Link:* 
-https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X--BOT--MD
+sy4m.vercel.app
 
-Hey ${m.pushName}!, Don't forget to star and fork my repository!`;
+Hey ${m.pushName}!, Don't try to play a fool with me `;
 
 return m.reply(repoInfo)
 
@@ -105,9 +105,9 @@ const data = await getJson('https://api.github.com/repos/A-S-W-I-N-S-P-A-R-K-Y/X
 🔸 *Stars:* ${data.stargazers_count}
 🔸 *Forks:* ${data.forks_count}
 🔸 *GitHub Link:* 
-https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X--BOT--MD
+sy4m.vercel.app
 
-Hey ${m.pushName}!, Don't forget to star and fork my repository!`;
+Hey ${m.pushName}!, Don't try to play a fool with me `;
 
 return m.reply(repoInfo)
 
