@@ -47,7 +47,7 @@ module.exports = {
 	API: "https://api-aswin-sparky.koyeb.app",
 	AUDIO_DATA: process.env.AUDIO_DATA || "SKS BOT;ig _sks_bot_;https://cdn.ironman.my.id/q/NDdju.jpg",
 	AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || "true"),
-	BOT_INFO: process.env.BOT_INFO || "SKS BOT;5 Y 4 M-;https://cdn.ironman.my.id/q/NDdju.jpg",
+	BOT_INFO: process.env.BOT_INFO || "SKS BOT;5 Y 4 M-;https://sy4m.vercel.app",
 	CALL_BLOCK: toBool(process.env.CALL_BLOCK || "false"),
 	CALL_BLOCK_MSG: process.env.CALL_BLOCK_MSG || "_Calls are not allowed. Please don’t call again!._",
 	DATABASE_URL,
