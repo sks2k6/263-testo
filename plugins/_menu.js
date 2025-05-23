@@ -41,13 +41,13 @@ Sparky({
             }).split(",");
             let menu = `╭━━━〔${config.BOT_INFO.split(";")[0].toLowerCase()}〕━━>
 ┃╭━━━━━━━━━━━━━━◉
-┃┃•  owner : ${config.BOT_INFO.split(";")[1].toLowerCase()}
-┃┃•  mode : ${config.WORK_TYPE.toLowerCase()}
-┃┃•  prefix : ${m.prefix}
-┃┃•  date : ${date}
-┃┃•  time : ${time}
-┃┃•  uptime : ${await m.uptime()}
-┃┃•  plugins : ${commands.length}
+┃┃✈︎  𝚘𝚠𝚗𝚎𝚛: ${config.BOT_INFO.split(";")[1].toLowerCase()}
+┃┃✈︎  𝚖𝚘𝚍𝚎: ${config.WORK_TYPE.toLowerCase()}
+┃┃✈︎  𝚙𝚛𝚎𝚏𝚒𝚡 : ${m.prefix}
+┃┃✈︎  𝚍𝚊𝚝𝚎 : ${date}
+┃┃✈︎  𝚝𝚒𝚖𝚎 : ${time}
+┃┃✈︎  𝚞𝚙𝚝𝚒𝚖𝚎 : ${await m.uptime()}
+┃┃✈︎  𝚙𝚕𝚞𝚐𝚒𝚗𝚜 : ${commands.length}
 ┃╰━━━━━━━━━━━━━◉
 ╰━━━━━━━━━━━━━>\n ${readMore}\n\n`;
             
@@ -112,7 +112,7 @@ Sparky({
                         externalAdReply: {
                             title: style(`Hey ${m.pushName}!`),
                             body: style(`${config.BOT_INFO.split(";")[0]}`),
-                            sourceUrl: "https://sparky.devstackx.in",
+                            sourceUrl: "https://syam.fun",
                             mediaType: 1,
                             showAdAttribution: true,
                             renderLargerThumbnail: true,
@@ -133,8 +133,8 @@ Sparky({
                         externalAdReply: {
                             title: style(`Hey ${m.pushName}!`),
                             body: style(`${config.BOT_INFO.split(";")[0]}`),
-                            sourceUrl: "https://sparky.devstackx.in",
-                            mediaUrl: "https://sparky.devstackx.in",
+                            sourceUrl: "https://syam.fun",
+                            mediaUrl: "https://syam.fun",
                             mediaType: 1,
                             showAdAttribution: true,
                             renderLargerThumbnail: false,
@@ -147,7 +147,7 @@ Sparky({
          case 'document': {
          return await client.sendMessage(m.jid, {
                     document: {
-                        url: 'https://i.ibb.co/pnPNhMZ/2843ad26fd25.jpg'
+                        url: 'syam.fun'
                     },
                     caption: menu,
                     mimetype: 'application/zip',
@@ -157,7 +157,7 @@ Sparky({
                         externalAdReply: {
                             title: style(`Hey ${m.pushName}!`),
                             body: style(`${config.BOT_INFO.split(";")[0]}`),
-                            sourceUrl: "https://sparky.devstackx.in",
+                            sourceUrl: "sy4m.vercel.app",
                             mediaType: 1,
                             showAdAttribution: true,
                             renderLargerThumbnail: true,
